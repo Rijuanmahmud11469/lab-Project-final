@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1686751321 source:e:\cse 115\string\lab project final\main.c
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1686751321 source:c:\users\user\desktop\lab project final\main.c
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+

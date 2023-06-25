@@ -129,6 +129,10 @@ void login()
   char username[MAX_USERNAME_LEN];
   char password[MAX_PASSWORD_LEN];
   char c=' ';
+  do
+  {
+
+
 
   printf("\n  \xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb LOGIN \xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb  \n");
   printf("Enter username: ");
@@ -162,6 +166,7 @@ void login()
     }
 	printf("\n\n\n\t\t\t\tPress any key to continue...");
 	getch();//holds the screen
+	break;
 
 
       }
@@ -171,6 +176,15 @@ void login()
 		a++;
 
 		getch();//holds the screen
+
+		}
+  }
+  while(a<=2);
+	if (a>2)
+	{
+		printf("\nSorry you have entered the wrong username and password for four times!!!");
+
+		getch();
 
 		}
 		system("cls");
